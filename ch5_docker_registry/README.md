@@ -25,7 +25,8 @@
 2. docker hub에 repository를 만듭니다.
     
     
-    
+    ![Untitled 3](https://user-images.githubusercontent.com/66009926/222083897-dc5a5b76-e5de-4bb7-8c63-9c0466767679.png)
+
 3. 로컬로 돌아와서 docker hub에 로그인합니다.
     
     ```bash
@@ -44,12 +45,13 @@
     ```bash
     docker push carrykim/docker-memo:version2
     ```
-    
+    ![Untitled 4](https://user-images.githubusercontent.com/66009926/222083793-bbe34785-39c2-4ece-b6d2-0308b252a83f.png)
     
     
 6. docker image 가져오는 방법은 아래 명령어를 통해 가져옵니다.
     
     ```bash
+
     docker pull carrykim/docker-memo:version2
     ```
     
